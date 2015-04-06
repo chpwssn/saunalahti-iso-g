@@ -1,0 +1,1294 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>DMOZ - Search Results </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<link rel="icon" type="image/ico" href="img/mozilla.ico">
+<link rel="stylesheet" type="text/css" href="/css/dmoz-main.css">
+<BASE target="_top">
+
+<style>
+h3 strong {margin:21px 0;}
+ol.site li {margin:21px 0;}
+.nav-label {margin:21px 0 0 16px; }
+.searchN .search-alt  {padding:12px 0;*padding:0 0 12px 0;}
+#bd-cross h4 {padding:0;}
+ol.site li .ref a {background:none; padding-right:0;}
+ol.site .ref li a {background:none; padding-right:0;}
+
+}
+</style>
+
+</HEAD>
+<body>
+<div id="omniture">
+<script type="text/javascript">
+function runOmni(){(function(){var F,t,n,v,p,q,u,o,i,f,D,d,k,c,b,x,g,E,s,z,C,m,r,a,l,B,e,w,A,y,j,h;F=location.protocol.toLowerCase();t=location.hostname.toLowerCase();n=location.port;v=location.pathname.toLowerCase();p=location.search.toLowerCase();q=document.title.toLowerCase();s_265.pfxID="odp";s_265.server=t;s_265.channel="us.dmozodp";s_265.charSet="UTF-8";s_265.linkInternalFilters="aol.com,javascript:,dmoz.org";u=t.split(".");o=(u.length>1)?u[u.length-2]+"."+u[u.length-1]:"";if((o==="dmoz.org")||(t+":"+n==="dmozqa-m01.ihost.aol.com:8081")||(t+":"+n==="10.146.172.49:9099")){s_265.prop12=F+"//"+t+v;i=(v.indexOf("/world/")>-1)?1:0;f=v.split("/");D=(i===1)?parseInt(f.length,10)-4:parseInt(f.length,10)-2;d=(f[f.length-1].length>0)?f[f.length-1].split(".")[0]:" - ";k=(f[f.length-1].length>0)?f[f.length-1]:" - ";c=(i===1)?f[3]:f[1];b=(i===1)?f[4]:f[2];if(i===0){x="english"}else{if((i===1)&&(D===-1)){x="world top"}else{if((i===1)&&(D>-1)){x=f[2]}}}s_265.prop16=x;j=(D>0)?"level-"+D:"level-0";switch(D){case -1:A=t+" - world top";y=A;h=A;break;case 0:if(d!==" - "){A="utilities";y="general info";h=t+" - "+d}else{A=t+" - top";y=A;h=A}break;case 1:A=c;y="top";h=(d!==" - ")?h=A+" - "+d:h="category main";break;case 2:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="subcategory main";break;default:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="level-"+D+" main";break}if(t==="search.dmoz.org"){A="utilities";y="search";j="level-0";h=d+" - home";g=((d==="search")&&(p.split("=")[0]==="?search"))?1:0;if(g===1){E=s_265.getQueryParam("search","",p);s_265.eVar11="sTerms:f|"+E;s_265.prop18=(s_265.getQueryParam("all").toLowerCase()!=="yes")?s_265.getQueryParam("cat").toLowerCase():"";s_265.prop18=s_265.prop18||"all";s=s_265.getQueryParam("t").toLowerCase();z=s_265.getQueryParam("morecat").toLowerCase();if(s==="c"||s==="s"||s==="b"){s_265.prop19=s}else{s_265.prop19=(z===1)?"c":"b"}C=(parseInt(s_265.getQueryParam("Kids"),10)===1)?"kids":"none";m=(parseInt(s_265.getQueryParam("Teens"),10)===1)?"teens":"none";r=(parseInt(s_265.getQueryParam("Mteens"),10)===1)?"mteens":"none";s_265.prop20=C+"|"+m+"|"+r;a=((s_265.prop19!=="c")&&(z.length===0)&&(s_265.getQueryParam("co").length===0))?((parseInt(s_265.getQueryParam("start")/20,10)+1)+""):(z.length===0)?((parseInt(s_265.getQueryParam("start")/25,10)+1)+""):((parseInt(s_265.getQueryParam("morecat")/25,10)+1)+"");s_265.prop21="page "+a;h="search results";l=(((a*1)===1)&&(z.length===0)&&(s_265.getQueryParam("start","",document.referrer).length===0))?1:0;if(l===1){B=(s.length>0)?"advanced search":((s.length===0)&&(s_265.getQueryParam("cat").length>0))?"branch search":"standard search";s_265.events="event1";s_265.eVar1=B}}e=1}if(e!==1){switch(c){case"help":A="utilities";y="help";j="level-0";h=(d!==" - ")?"dmoz help - "+d:"dmoz help - helpmain";e=1;break;case"profiles":A="utilities";y="profiles";j="level-0";h="dmoz - user profile";s_265.mmxtitle=h;s_265.mmxcustom="http://www.dmoz.org/profiles/user.html";e=1;break;case"become_an_editor":case"user-banners":case"awards":A="utilities";y="general info";j="level-0";h="dmoz - general info - "+q;e=1;break;case"guidelines":A="utilities";y="editors";j="level-0";h=(D>1)?"editors - "+c+" - "+b+" - "+q:"editors guidelines - "+q;e=1;break;case"newsletter":j="level-0";switch(D){case 1:y="newsletter article archive";h=y;break;case 2:h="newsletter "+y+" - "+q;break}e=1;break;case"erz":A="utilities";y="editors";j="level-0";h=(D>1)?"erz - "+b+" - "+q:"erz - top - "+q;e=1;break}}if(e!==1){if((t==="www.dmoz.org")&&(D===0)&&(d==="reinstate")){A="utilities";y="editors";h="editors - "+q;e=1}if(t==="report-abuse.dmoz.org"){A="utilities";y="report abuse";j="level-0";h=((D===0)&&(d==="faq"))?"dmoz report abuse system faq":"dmoz report abuse system";e=1}else{if(t==="rdf.dmoz.org"){A="utilities";y="rdf";j="level-0";if((D===0)&&(d===" - ")){h="rdf - main"}else{if((D===1)&&(d===" - ")){h="rdf - file index"}else{if((D===1)&&(d!==" - ")){h="rdf - "+d}}}e=1}}}if(e!==1){if((c==="cgi-bin")&&(t!=="search.dmoz.org")){A="utilities";j="level-0";switch(d){case"apply":case"forgot":y="editors";h=(d==="forgot")?"editors - password reminder form":(s_265.getQueryParam("submit").length===0)?"editors - application info":"editors - application";e=1;break;case"add":case"update":case"update2":case"update3":case"reinstate":y="editors";if(d==="add"){h="editors - submit a site instructions"}else{if(d==="update"){h="editors - update listing instructions"}else{if(d==="update2"){h="editors - update listing form"}else{if(d==="update3"){h="editors - update listing form received"}else{if(d==="reinstate"){h="editors - account reinstatement form received"}}}}}e=1;break;case"send":case"send2":y="editors";h=(d==="send")?"send editors feedback":"editors feedback received";e=1;break}}}if(e!==1){if((k==="desc.html")||(k==="faq.html")){w=(k==="desc.html")?"description":"faq";h=(D===1)?"branch category ":(D===2)?"branch subcategory ":"branch level-"+D+" ";h=h+w}}s_265.trackExternalLinks=false;s_265.mmxgo=true;s_265.prop1=A;s_265.prop2=y;s_265.prop17=j;s_265.pageName=h;s_265.t()}}())}var s_account="aoldmozodp,aolsvc";(function(){var b=document,a=b.createElement("script");a.type="text/javascript";a.src=(location.protocol==="https:"?"https://s":"http://o")+".aolcdn.com/omniunih.js";b.getElementsByTagName("head")[0].appendChild(a)}());
+</script>
+</div>
+<div id="doc" class="searchN">
+    <div id="hd" style="border-bottom:0;">
+    	<a id="logo" class="logoN" href="/" alt="dmoz logo" title="DMOZ"></a>
+        <div id="partnership">
+        	<img width="72" height="36" align="middle" alt="In Partnership with AOL" src="/img/public/aolpartner.png"/>
+        </div>
+    </div>
+    <div id="hd-bar">
+    	<div class="float-l">&nbsp;</div>
+        <div class="float-r">
+        	<a href="/">home</a> | <a href="/docs/en/unavailable.html">feedback</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="bd-cross">
+        <FORM class="center mb1em" >
+
+		
+		<h4>Search: <strong>saunalahti.fi</strong></h4>
+		
+		
+
+        </form>
+        
+        	<h3>
+            	<strong>DMOZ Categories</strong> 
+	            <small>(1-5 of 75)</small>
+            </h3>
+            <ol class="dir" start=1>
+				
+                <li>
+		    
+		    
+                <a href="/World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/H/"><strong>World: Suomi: Yhteiskunta: Ihmiset: Henkilökohtaiset sivut: H</strong></a>
+   			(<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/H&all=no">3</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Suomi/Koti/Puutarha/"><strong>World: Suomi: Koti: Puutarha</strong></a>
+   			(<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Koti/Puutarha&all=no">2</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Suomi/Kulttuuri_ja_viihde/Sarjakuvat/Seurat_ja_piirt%C3%A4j%C3%A4t/"><strong>World: Suomi: Kulttuuri ja viihde: Sarjakuvat: Seurat ja piirtäjät</strong></a>
+   			(<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Kulttuuri_ja_viihde/Sarjakuvat/Seurat_ja_piirt%C3%A4j%C3%A4t&all=no">2</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Korat/"><strong>World: Suomi: Vapaa-aika: Lemmikit: Kissat: Kissarodut: Korat</strong></a>
+   			(<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Korat&all=no">2</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Maine_Coon/"><strong>World: Suomi: Vapaa-aika: Lemmikit: Kissat: Kissarodut: Maine Coon</strong></a>
+   			(<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Maine_Coon&all=no">2</a>)
+	
+                </li>
+                
+            </ol>
+            
+            <p align="center"><a class="nav-label" href="search?q=saunalahti.fi&start=0&type=more&all=no&cat=">more...</a></p>
+            
+        
+        <p class="mb1em"></p>
+        
+        	<h3 class="open-dir-sites">
+            	<strong>DMOZ Sites</strong> 
+                <small>(1-20 of 83)</small>
+            </h3>
+         
+			<ol class="site" start=1>
+				
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/mmla/">IDEA</a> - IDEA-tilintarkastusohjelmistot.
+                    <div class="ref">-- http://www.saunalahti.fi/mmla/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Tietotekniikka/Ohjelmat/">World: Suomi: Tietotekniikka: Ohjelmat</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Tietotekniikka/Ohjelmat&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/~tapanipa/index.htm">Tapani Parviainen</a> - Huumoritekstej&#228; eri aiheista.
+                    <div class="ref">-- http://www.saunalahti.fi/~tapanipa/index.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Huumori/">World: Suomi: Vapaa-aika: Huumori</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Huumori&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/~hpv/">Ahjolan Sulkapallokerho</a> - Tampereen vanhin sulkapalloseura.
+                    <div class="ref">-- http://www.saunalahti.fi/~hpv/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Urheilu/Sulkapallo/">World: Suomi: Urheilu: Sulkapallo</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Urheilu/Sulkapallo&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/~jpoyry/petanque/">Lahti Boule ry</a> - Seuran toimintaa ja kilpailutuloksia.
+                    <div class="ref">-- http://www.saunalahti.fi/~jpoyry/petanque/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Urheilu/Petanque/">World: Suomi: Urheilu: Petanque</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Urheilu/Petanque&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/rosenlof/">Rosenlof, Jouni</a> - Took 5th in the 2001 Junior World Championship and is a student in Canada. Includes profile, results, calendar, photos, and links.
+                    <div class="ref">-- http://www.saunalahti.fi/rosenlof/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Sports/Wrestling/Amateur/Wrestlers/">Sports: Wrestling: Amateur: Wrestlers</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Sports/Wrestling/Amateur/Wrestlers&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/~s151036j/">Rydman, Kari</a> - (1936- ), Helsinki, Finland. Picture, biography, and works.
+                    <div class="ref">-- http://www.saunalahti.fi/~s151036j/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Music/Composition/Composers/Contemporary/R/">Arts: Music: Composition: Composers: Contemporary: R</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Arts/Music/Composition/Composers/Contemporary/R&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/~ppiirto/everhad/">Ever Had</a> - Artist information and downloads from this electronic experimental, breakbeat and ambient group.
+                    <div class="ref">-- http://www.saunalahti.fi/~ppiirto/everhad/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Music/Bands_and_Artists/E/">Arts: Music: Bands and Artists: E</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Arts/Music/Bands_and_Artists/E&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/~vpk4/">M/S Velmeri</a> - Charter cruises in Savonlinna. Includes menus, prices and booking information.
+                    <div class="ref">-- http://www.saunalahti.fi/~vpk4/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Regional/Europe/Finland/Recreation_and_Sports/Boating/Charters/">Regional: Europe: Finland: Recreation and Sports: Boating: Charters</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Regional/Europe/Finland/Recreation_and_Sports/Boating/Charters&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/squire64/">Rusty Life</a> - Picture gallery provided by an American car enthusiast.
+                    <div class="ref">-- http://www.saunalahti.fi/squire64/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Regional/Europe/Finland/Recreation_and_Sports/Autos/">Regional: Europe: Finland: Recreation and Sports: Autos</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Regional/Europe/Finland/Recreation_and_Sports/Autos&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/lenas/">Lenas Sightseeing</a> - Guided tours of the city by mini coach. Includes sample itineraries.
+                    <div class="ref">-- http://www.saunalahti.fi/lenas/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Regional/Europe/Finland/Varsinais-Suomi/Turku/Travel_and_Tourism/">Regional: Europe: Finland: Varsinais-Suomi: Turku: Travel and Tourism</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Regional/Europe/Finland/Varsinais-Suomi/Turku/Travel_and_Tourism&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/hoyhtya/">Hoyhtya</a> - Tani, Minna and kids from Porvoo, Finland. Jobs and life in Finland and Indonesia containing family, fishing and golf photos.
+                    <div class="ref">-- http://www.saunalahti.fi/hoyhtya/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Home/Family/Family_Websites/H/">Home: Family: Family Websites: H</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Home/Family/Family_Websites/H&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/~ivanoff/mainos/">Stupid Finnish Advertisements</a> - Contains scanned images of stupid old Finnish advertisement with brief descriptions in English.
+                    <div class="ref">-- http://www.saunalahti.fi/~ivanoff/mainos/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Recreation/Humor/Parodies/Advertisements/">Recreation: Humor: Parodies: Advertisements</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Recreation/Humor/Parodies/Advertisements&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/seho/hakukoneet.html">Hakukoneet ja hakemistot</a> - Hakukoneet, hakemistot, sanakirjat ja muita linkkej&#228; yhteen kokoava aloitussivusto.
+                    <div class="ref">-- http://www.saunalahti.fi/seho/hakukoneet.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Tietotekniikka/Internet/WWW/Haku/">World: Suomi: Tietotekniikka: Internet: WWW: Haku</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Tietotekniikka/Internet/WWW/Haku&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/jrajala/suomi.htm">Suomi - preportaali</a> - Portaali portaaleille. Linkkisivuja ja hakukoneita.
+                    <div class="ref">-- http://www.saunalahti.fi/jrajala/suomi.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Tietotekniikka/Internet/WWW/Portaalit/">World: Suomi: Tietotekniikka: Internet: WWW: Portaalit</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Tietotekniikka/Internet/WWW/Portaalit&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/~hakanenm/">Hakanen, Mikko</a> - Luontoa, filosofiaa, kulttuuria, valokuvia.
+                    <div class="ref">-- http://www.saunalahti.fi/~hakanenm/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/H/">World: Suomi: Yhteiskunta: Ihmiset: Henkilökohtaiset sivut: H</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/H&all=no">3</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/teheino/">Heino, Teemu</a> - Tampere, Suomi. Esittely, kaverit ja linkkikokoelma.
+                    <div class="ref">-- http://www.saunalahti.fi/teheino/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/H/">World: Suomi: Yhteiskunta: Ihmiset: Henkilökohtaiset sivut: H</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/H&all=no">3</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/seituomi/">Aarnio, Seija</a> - Henkil&#246;kohtaisia tietoja sek&#228; saamelaisille suunnattuja sivuja (saamen kielell&#228;).
+                    <div class="ref">-- http://www.saunalahti.fi/seituomi/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/A/">World: Suomi: Yhteiskunta: Ihmiset: Henkilökohtaiset sivut: A</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/A&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/jrajala/index.html">Rajala, Jarmo</a> - Uutta patentoitua teknologiaa mekaaniselle mets&#228;teollisuudelle.
+                    <div class="ref">-- http://www.saunalahti.fi/jrajala/index.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/R/">World: Suomi: Yhteiskunta: Ihmiset: Henkilökohtaiset sivut: R</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/R&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/rovasti/">Kivij&#228;rvi, Hannu</a> - Uudenmaan Prikaatin kentt&#228;rovastin kotisivu.
+                    <div class="ref">-- http://www.saunalahti.fi/rovasti/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Uskonto/Kristinusko/Henkil%C3%B6kohtaiset_sivut/">World: Suomi: Yhteiskunta: Uskonto: Kristinusko: Henkilökohtaiset sivut</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Uskonto/Kristinusko/Henkil%C3%B6kohtaiset_sivut&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://www.saunalahti.fi/dorje">Tulku Pema Wangyal opintoryhm&#228;</a> - Buddhalainen opintoryhm&#228;, tietoa buddhalaisuudesta ja toiminnasta.
+                    <div class="ref">-- http://www.saunalahti.fi/dorje&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Uskonto/Buddhalaisuus/">World: Suomi: Yhteiskunta: Uskonto: Buddhalaisuus</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Uskonto/Buddhalaisuus&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+            </ol>
+            
+            
+            
+	        <p align="center"><a class="nav-label" href="search?q=saunalahti.fi&start=20&type=next&all=no&cat=">next</a></p>
+	        
+        
+		</div>
+		<div class="mb1em-form">
+			<form class="center mb1em" action="search" method="GET">
+				<input type="text" NAME="q" value="saunalahti.fi">
+				<input type=submit value="New Search" class="btn">
+				<a href="search?type=advanced">Advanced Search</a>
+				<a href="/docs/en/searchguide.html">Help on Search</a>
+			</form>
+		</div>
+
+		<div class="dividerN">
+			<img style="height: 2px; float: left; width: 100%" src="http://o.aolcdn.com/os/dmoz/img/dividerN.gif" />
+		</div>
+
+        <div class="search-alt">
+			
+	        "<strong>saunalahti.fi</strong>"
+			 search on: - 
+            <a href="http://www.altavista.com/cgi-bin/query?q=saunalahti.fi">AltaVista</a> - 
+            <a href="http://a9.com/saunalahti.fi">A9</a> - 
+            <a href="http://search.aol.com/aolcom/search?query=saunalahti.fi">AOL</a> - 
+            <a href="http://clusty.com/search?query=saunalahti.fi">Clusty</a> - 
+            <a href="http://gigablast.com/search?q=saunalahti.fi">Gigablast</a> - 
+            <a href="http://www.google.com/search?num=10&amp;query=saunalahti.fi">Google</a> - 
+            <a href="http://search.lycos.com/?query=saunalahti.fi">Lycos</a> - 
+            <a href="http://www.bing.com/search?go=&form=QBLH&filt=all&qs=n?q=saunalahti.fi">Bing</a> - 
+		<a HREF="http://s.teoma.com/search?q=saunalahti.fi">Teoma</a> - 
+		<a HREF="http://www.wisenut.com/search/query.dll?q=saunalahti.fi">Wisenut</A> - 
+            <a href="http://search.yahoo.com/bin/search?p=saunalahti.fi">Yahoo</a>
+			
+
+
+        </div>
+
+		<div class="bottom-dividerN">
+			<img style="height: 2px; float: left; width: 100%" src="http://o.aolcdn.com/os/dmoz/img/dividerN.gif" />
+		</div>
+    </div>
+    <div id="ft">
+    	
+        
+            <span class="float-l">Copyright &copy; 1998-2015 AOL Inc.</span>
+        
+
+        <span class="float-r"><a href="/docs/en/termsofuse.html">Terms of Use</a></span>
+    </div>
+    <!--div id="ft-bar">
+    	Search database last updated on: Wed Jun 25 17:20:02 EDT 2008
+    </div-->
+</div>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>DMOZ - Search Results </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<link rel="icon" type="image/ico" href="img/mozilla.ico">
+<link rel="stylesheet" type="text/css" href="/css/dmoz-main.css">
+<BASE target="_top">
+
+<style>
+ol.site li .ref a {background:none; padding-right:0;}
+ol.site .ref li a {background:none; padding-right:0;}
+
+}
+</style>
+
+</HEAD>
+<body>
+<div id="omniture">
+<script type="text/javascript">
+function runOmni(){(function(){var F,t,n,v,p,q,u,o,i,f,D,d,k,c,b,x,g,E,s,z,C,m,r,a,l,B,e,w,A,y,j,h;F=location.protocol.toLowerCase();t=location.hostname.toLowerCase();n=location.port;v=location.pathname.toLowerCase();p=location.search.toLowerCase();q=document.title.toLowerCase();s_265.pfxID="odp";s_265.server=t;s_265.channel="us.dmozodp";s_265.charSet="UTF-8";s_265.linkInternalFilters="aol.com,javascript:,dmoz.org";u=t.split(".");o=(u.length>1)?u[u.length-2]+"."+u[u.length-1]:"";if((o==="dmoz.org")||(t+":"+n==="dmozqa-m01.ihost.aol.com:8081")||(t+":"+n==="10.146.172.49:9099")){s_265.prop12=F+"//"+t+v;i=(v.indexOf("/world/")>-1)?1:0;f=v.split("/");D=(i===1)?parseInt(f.length,10)-4:parseInt(f.length,10)-2;d=(f[f.length-1].length>0)?f[f.length-1].split(".")[0]:" - ";k=(f[f.length-1].length>0)?f[f.length-1]:" - ";c=(i===1)?f[3]:f[1];b=(i===1)?f[4]:f[2];if(i===0){x="english"}else{if((i===1)&&(D===-1)){x="world top"}else{if((i===1)&&(D>-1)){x=f[2]}}}s_265.prop16=x;j=(D>0)?"level-"+D:"level-0";switch(D){case -1:A=t+" - world top";y=A;h=A;break;case 0:if(d!==" - "){A="utilities";y="general info";h=t+" - "+d}else{A=t+" - top";y=A;h=A}break;case 1:A=c;y="top";h=(d!==" - ")?h=A+" - "+d:h="category main";break;case 2:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="subcategory main";break;default:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="level-"+D+" main";break}if(t==="search.dmoz.org"){A="utilities";y="search";j="level-0";h=d+" - home";g=((d==="search")&&(p.split("=")[0]==="?search"))?1:0;if(g===1){E=s_265.getQueryParam("search","",p);s_265.eVar11="sTerms:f|"+E;s_265.prop18=(s_265.getQueryParam("all").toLowerCase()!=="yes")?s_265.getQueryParam("cat").toLowerCase():"";s_265.prop18=s_265.prop18||"all";s=s_265.getQueryParam("t").toLowerCase();z=s_265.getQueryParam("morecat").toLowerCase();if(s==="c"||s==="s"||s==="b"){s_265.prop19=s}else{s_265.prop19=(z===1)?"c":"b"}C=(parseInt(s_265.getQueryParam("Kids"),10)===1)?"kids":"none";m=(parseInt(s_265.getQueryParam("Teens"),10)===1)?"teens":"none";r=(parseInt(s_265.getQueryParam("Mteens"),10)===1)?"mteens":"none";s_265.prop20=C+"|"+m+"|"+r;a=((s_265.prop19!=="c")&&(z.length===0)&&(s_265.getQueryParam("co").length===0))?((parseInt(s_265.getQueryParam("start")/20,10)+1)+""):(z.length===0)?((parseInt(s_265.getQueryParam("start")/25,10)+1)+""):((parseInt(s_265.getQueryParam("morecat")/25,10)+1)+"");s_265.prop21="page "+a;h="search results";l=(((a*1)===1)&&(z.length===0)&&(s_265.getQueryParam("start","",document.referrer).length===0))?1:0;if(l===1){B=(s.length>0)?"advanced search":((s.length===0)&&(s_265.getQueryParam("cat").length>0))?"branch search":"standard search";s_265.events="event1";s_265.eVar1=B}}e=1}if(e!==1){switch(c){case"help":A="utilities";y="help";j="level-0";h=(d!==" - ")?"dmoz help - "+d:"dmoz help - helpmain";e=1;break;case"profiles":A="utilities";y="profiles";j="level-0";h="dmoz - user profile";s_265.mmxtitle=h;s_265.mmxcustom="http://www.dmoz.org/profiles/user.html";e=1;break;case"become_an_editor":case"user-banners":case"awards":A="utilities";y="general info";j="level-0";h="dmoz - general info - "+q;e=1;break;case"guidelines":A="utilities";y="editors";j="level-0";h=(D>1)?"editors - "+c+" - "+b+" - "+q:"editors guidelines - "+q;e=1;break;case"newsletter":j="level-0";switch(D){case 1:y="newsletter article archive";h=y;break;case 2:h="newsletter "+y+" - "+q;break}e=1;break;case"erz":A="utilities";y="editors";j="level-0";h=(D>1)?"erz - "+b+" - "+q:"erz - top - "+q;e=1;break}}if(e!==1){if((t==="www.dmoz.org")&&(D===0)&&(d==="reinstate")){A="utilities";y="editors";h="editors - "+q;e=1}if(t==="report-abuse.dmoz.org"){A="utilities";y="report abuse";j="level-0";h=((D===0)&&(d==="faq"))?"dmoz report abuse system faq":"dmoz report abuse system";e=1}else{if(t==="rdf.dmoz.org"){A="utilities";y="rdf";j="level-0";if((D===0)&&(d===" - ")){h="rdf - main"}else{if((D===1)&&(d===" - ")){h="rdf - file index"}else{if((D===1)&&(d!==" - ")){h="rdf - "+d}}}e=1}}}if(e!==1){if((c==="cgi-bin")&&(t!=="search.dmoz.org")){A="utilities";j="level-0";switch(d){case"apply":case"forgot":y="editors";h=(d==="forgot")?"editors - password reminder form":(s_265.getQueryParam("submit").length===0)?"editors - application info":"editors - application";e=1;break;case"add":case"update":case"update2":case"update3":case"reinstate":y="editors";if(d==="add"){h="editors - submit a site instructions"}else{if(d==="update"){h="editors - update listing instructions"}else{if(d==="update2"){h="editors - update listing form"}else{if(d==="update3"){h="editors - update listing form received"}else{if(d==="reinstate"){h="editors - account reinstatement form received"}}}}}e=1;break;case"send":case"send2":y="editors";h=(d==="send")?"send editors feedback":"editors feedback received";e=1;break}}}if(e!==1){if((k==="desc.html")||(k==="faq.html")){w=(k==="desc.html")?"description":"faq";h=(D===1)?"branch category ":(D===2)?"branch subcategory ":"branch level-"+D+" ";h=h+w}}s_265.trackExternalLinks=false;s_265.mmxgo=true;s_265.prop1=A;s_265.prop2=y;s_265.prop17=j;s_265.pageName=h;s_265.t()}}())}var s_account="aoldmozodp,aolsvc";(function(){var b=document,a=b.createElement("script");a.type="text/javascript";a.src=(location.protocol==="https:"?"https://s":"http://o")+".aolcdn.com/omniunih.js";b.getElementsByTagName("head")[0].appendChild(a)}());
+</script>
+</div>
+<div id="doc" class="searchN">
+	<div id="hd" style="border-bottom:0;">
+    	<a id="logo" class="logoN" href="/" alt="dmoz logo" title="DMOZ"></a>
+        <div id="partnership">
+        	<img width="72" height="36" align="middle" alt="In Partnership with AOL" src="/img/public/aolpartner.png"/>
+        </div>
+    </div>
+    <div id="hd-bar">
+    	<div class="float-l">&nbsp;</div>
+        <div class="float-r">
+        	<a href="/">home</a> | <a href="/docs/en/unavailable.html">feedback</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="bd-cross">
+        <FORM class="center mb1em" >
+		<h4>Search: <strong>saunalahti.fi</strong></h4>
+		
+
+        </form>
+        <p class="mb1em"></p>
+        
+        	<h3>
+            	<strong>DMOZ Sites</strong> 
+                <small>(21-40 of 83)</small>
+            </h3>
+         
+			<ol class="site" start=21>
+				
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/eiry/">Suomalainen n&#228;k&#246;kulma Eiry</a> - N&#228;kemyksi&#228; suomenkielisten etnisist&#228; ominaisuuksista ja ruotsin kielen asemasta.
+                    <div class="ref">-- http://www.saunalahti.fi/eiry/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Politiikka/Nationalismi/">World: Suomi: Yhteiskunta: Politiikka: Nationalismi</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Politiikka/Nationalismi&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~leino/">Asianajotoimisto Olavi Leino Oy</a> - Toijalalainen asianajotoimisto, jolla kokemusta mm. liikejuridiikan eri osa-alueilta.
+                    <div class="ref">-- http://www.saunalahti.fi/~leino/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Laki/Lakiasiainpalvelut/">World: Suomi: Yhteiskunta: Laki: Lakiasiainpalvelut</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Laki/Lakiasiainpalvelut&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/hirvela/">Historismi</a> - Sukututkimuksen ja paikallishistorian sivusto. Sukuja mm: Hirvel&#228;, Rainio, Kosonen, Aunela, Camenaeus ja Forbus.
+                    <div class="ref">-- http://www.saunalahti.fi/hirvela/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Sukututkimus/">World: Suomi: Yhteiskunta: Sukututkimus</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Sukututkimus&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/siekman/">Ensihoitonetti</a> - Ensimm&#228;inen suomalainen ensihoitosivusto. Kattavasti hoitoprotokollia, ym alaan liittyv&#228;&#228;.
+                    <div class="ref">-- http://www.saunalahti.fi/siekman/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Terveys/Sairaanhoito/">World: Suomi: Terveys: Sairaanhoito</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Terveys/Sairaanhoito&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/andante/">Andante Consulting Oy</a> - Ty&#246;yhteis&#246;jen, organisaatioiden ja ryhmien kehitt&#228;mispalveluja, ty&#246;nohjausta, koulutusta ja ryhm&#228;terapiapalveluja.
+                    <div class="ref">-- http://www.saunalahti.fi/andante/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Elinkeinoel%C3%A4m%C3%A4/Konsultointi/">World: Suomi: Elinkeinoelämä: Konsultointi</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Elinkeinoel%C3%A4m%C3%A4/Konsultointi&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/oppl/cc2002/es.shtml">Taksipalvelu.cc</a> - Edustusajot, tilausajot, invakyyditykset.
+                    <div class="ref">-- http://www.saunalahti.fi/oppl/cc2002/es.shtml&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Elinkeinoel%C3%A4m%C3%A4/Kuljetus/">World: Suomi: Elinkeinoelämä: Kuljetus</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Elinkeinoel%C3%A4m%C3%A4/Kuljetus&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~brentek/">Hifisound.net</a> - Subwoofereiden, vahvistimien, ohjelmal&#228;hteiden, kondensaattorien jne. nettikauppa.
+                    <div class="ref">-- http://www.saunalahti.fi/~brentek/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Verkkokaupat/Musiikki/">World: Suomi: Verkkokaupat: Musiikki</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Verkkokaupat/Musiikki&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~tuvira/">Tuvira Oy</a> - Tenniskenttien rajanauhoja massa- ja nurmikkokentille. My&#246;s muita nauhoja ja listoja.
+                    <div class="ref">-- http://www.saunalahti.fi/~tuvira/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Verkkokaupat/Urheilu/">World: Suomi: Verkkokaupat: Urheilu</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Verkkokaupat/Urheilu&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/muikku3/">Maatilamajoitus Muikkulahti</a> - Saunallisia huoneistoja Melkoniemen kyl&#228;ll&#228;.
+                    <div class="ref">-- http://www.saunalahti.fi/muikku3/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Alueellinen/Suomi/Etel%C3%A4-Karjala/Kunnat/Parikkala/Matkailu/">World: Suomi: Alueellinen: Suomi: Etelä-Karjala: Kunnat: Parikkala: Matkailu</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Alueellinen/Suomi/Etel%C3%A4-Karjala/Kunnat/Parikkala/Matkailu&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~jpoyry/petanque/">Lahti Boule ry</a> - Seuran toimintaa ja kilpailutuloksia.
+                    <div class="ref">-- http://www.saunalahti.fi/~jpoyry/petanque/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Alueellinen/Suomi/P%C3%A4ij%C3%A4t-H%C3%A4me/Kunnat/Lahti/Harrastukset_ja_urheilu/">World: Suomi: Alueellinen: Suomi: Päijät-Häme: Kunnat: Lahti: Harrastukset ja urheilu</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Alueellinen/Suomi/P%C3%A4ij%C3%A4t-H%C3%A4me/Kunnat/Lahti/Harrastukset_ja_urheilu&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~trolle/Kissat/Kissat.html">Kissat</a> - Kolme kissaa: Trolle, Sally ja Rusina. Kuvia ja tarinoita.
+                    <div class="ref">-- http://www.saunalahti.fi/~trolle/Kissat/Kissat.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Kissat/Min%C3%A4_ja_kissani/">World: Suomi: Vapaa-aika: Lemmikit: Kissat: Minä ja kissani</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Min%C3%A4_ja_kissani&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/squire64/">Rusty Life</a> - El&#228;m&#228;&#228; amerikkalaisten autojen parissa Suomen Turussa.
+                    <div class="ref">-- http://www.saunalahti.fi/squire64/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Autot/">World: Suomi: Vapaa-aika: Autot</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Autot&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://pomifinland.saunalahti.fi/">Yksin yli Atlantin</a> - Ari Huuselan kilpapurjehdus yksin yli Atlantin.
+                    <div class="ref">-- http://pomifinland.saunalahti.fi/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Veneily/Henkil%C3%B6kohtaiset_sivut/">World: Suomi: Vapaa-aika: Veneily: Henkilökohtaiset sivut</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Veneily/Henkil%C3%B6kohtaiset_sivut&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/ugly">Sir Ugly Psycho&apos;s Tower</a> - Suomenkielisi&#228; ilmaisia roolipelej&#228; ja oheismateriaalia.
+                    <div class="ref">-- http://www.saunalahti.fi/ugly&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Pelit/Roolipelit/">World: Suomi: Pelit: Roolipelit</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Pelit/Roolipelit&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/pterasti/shakki-77/">Shakki-77</a> - Oululaisen shakkikerhon kotisivu
+                    <div class="ref">-- http://www.saunalahti.fi/pterasti/shakki-77/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Pelit/Lautapelit/%C5%A0akki/Kerhot/">World: Suomi: Pelit: Lautapelit: Šakki: Kerhot</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Pelit/Lautapelit/%C5%A0akki/Kerhot&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~stniekat/st/index.htm">Suomen Teht&#228;v&#228;niekat</a> - Teht&#228;v&#228;shakin harrastajien valtakunnallinen yhdistys.
+                    <div class="ref">-- http://www.saunalahti.fi/~stniekat/st/index.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Pelit/Lautapelit/%C5%A0akki/Liitot/">World: Suomi: Pelit: Lautapelit: Šakki: Liitot</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Pelit/Lautapelit/%C5%A0akki/Liitot&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/mikkolaa/hedelma.htm">Hedelm&#228;pelin salaisuuksia</a> - Hedelm&#228;pelin ja pajatson rakennusprojekti.
+                    <div class="ref">-- http://www.saunalahti.fi/mikkolaa/hedelma.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Pelit/Peliautomaatit/">World: Suomi: Pelit: Peliautomaatit</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Pelit/Peliautomaatit&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~puupioni/">Kiinalainen Puupioni</a> - Kiinalaisten puupionien maahantuoja ja j&#228;lleenmyyj&#228;. Kuvitettu lajikeluettelo.
+                    <div class="ref">-- http://www.saunalahti.fi/~puupioni/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Koti/Puutarha/">World: Suomi: Koti: Puutarha</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Koti/Puutarha&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/vemr/">Vakka-Taimi</a> - Puutarhamyym&#228;l&#228; Pyh&#228;rannan Ihodessa, osoitteessa Polttilantie 102.
+                    <div class="ref">-- http://www.saunalahti.fi/vemr/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Koti/Puutarha/">World: Suomi: Koti: Puutarha</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Koti/Puutarha&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/pkivin3/">Kiviniemi, Petri</a> - Veistoksia ja esinekoosteita useista eri materiaaleista. Sivustolla kuvia teoksista.
+                    <div class="ref">-- http://www.saunalahti.fi/pkivin3/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Kulttuuri_ja_viihde/Kuvataiteet/Kuvanveisto/">World: Suomi: Kulttuuri ja viihde: Kuvataiteet: Kuvanveisto</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Kulttuuri_ja_viihde/Kuvataiteet/Kuvanveisto&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+            </ol>
+            
+            
+            <p align="center"><a class="nav-label" href="search?q=saunalahti.fi&start=0&all=no&cat=">previous</a></p>
+            
+	        <p align="center"><a class="nav-label" href="search?q=saunalahti.fi&start=40&type=next&all=no&cat=">next</a></p>
+	        
+        
+		<br>
+		<FORM class="center mb1em" action="search" method="GET">
+	      <INPUT TYPE="text" NAME="q" value="saunalahti.fi">
+		<input type=submit value="New Search" class="btn">
+		<a href="search?type=advanced">Advanced Search</a>
+		<a href="/docs/en/searchguide.html">Help on Search</a>
+		</FORM>
+
+		<span>
+			<img style="height: 2px; float: left; width: 100%" src="/img/dividerN.gif" />
+		</span>
+
+        <div class="search-alt">
+			
+	        "<strong>saunalahti.fi</strong>"
+			 search on: - 
+            <a href="http://www.altavista.com/cgi-bin/query?q=saunalahti.fi">AltaVista</a> - 
+            <a href="http://a9.com/saunalahti.fi">A9</a> - 
+            <a href="http://search.aol.com/aolcom/search?query=saunalahti.fi">AOL</a> - 
+            <a href="http://search.ask.com/web?q=saunalahti.fi">Ask</a> - 
+            <a href="http://clusty.com/search?query=saunalahti.fi">Clusty</a> - 
+            <a href="http://gigablast.com/search?q=saunalahti.fi">Gigablast</a> - 
+            <a href="http://www.google.com/search?num=10&amp;query=saunalahti.fi">Google</a> - 
+            <a href="http://search.lycos.com/?query=saunalahti.fi">Lycos</a> - 
+            <a href="http://www.bing.com/search?go=&form=QBLH&filt=all&qs=n?q=saunalahti.fi">Bing</a> - 
+		<a HREF="http://s.teoma.com/search?q=saunalahti.fi">Teoma</a> - 
+		<a HREF="http://www.wisenut.com/search/query.dll?q=saunalahti.fi">Wisenut</A> - 
+            <a href="http://search.yahoo.com/bin/search?p=saunalahti.fi">Yahoo</a>
+			
+
+
+        </div>
+
+
+		<span>
+			<img style="height: 2px; float: left; width: 100%" src="/img/dividerN.gif" />
+		</span>
+    </div>
+    <div id="ft">
+    	
+        
+            <span class="float-l">Copyright &copy; 1998-2015 AOL Inc.</span>
+        
+        <span class="float-r"><a href="/docs/en/termsofuse.html">Terms of Use</a></span>
+    </div>
+    <!--div id="ft-bar">
+    	Search database last updated on: Wed Jun 25 17:20:02 EDT 2008
+    </div-->
+</div>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>DMOZ - Search Results </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<link rel="icon" type="image/ico" href="img/mozilla.ico">
+<link rel="stylesheet" type="text/css" href="/css/dmoz-main.css">
+<BASE target="_top">
+
+<style>
+ol.site li .ref a {background:none; padding-right:0;}
+ol.site .ref li a {background:none; padding-right:0;}
+
+}
+</style>
+
+</HEAD>
+<body>
+<div id="omniture">
+<script type="text/javascript">
+function runOmni(){(function(){var F,t,n,v,p,q,u,o,i,f,D,d,k,c,b,x,g,E,s,z,C,m,r,a,l,B,e,w,A,y,j,h;F=location.protocol.toLowerCase();t=location.hostname.toLowerCase();n=location.port;v=location.pathname.toLowerCase();p=location.search.toLowerCase();q=document.title.toLowerCase();s_265.pfxID="odp";s_265.server=t;s_265.channel="us.dmozodp";s_265.charSet="UTF-8";s_265.linkInternalFilters="aol.com,javascript:,dmoz.org";u=t.split(".");o=(u.length>1)?u[u.length-2]+"."+u[u.length-1]:"";if((o==="dmoz.org")||(t+":"+n==="dmozqa-m01.ihost.aol.com:8081")||(t+":"+n==="10.146.172.49:9099")){s_265.prop12=F+"//"+t+v;i=(v.indexOf("/world/")>-1)?1:0;f=v.split("/");D=(i===1)?parseInt(f.length,10)-4:parseInt(f.length,10)-2;d=(f[f.length-1].length>0)?f[f.length-1].split(".")[0]:" - ";k=(f[f.length-1].length>0)?f[f.length-1]:" - ";c=(i===1)?f[3]:f[1];b=(i===1)?f[4]:f[2];if(i===0){x="english"}else{if((i===1)&&(D===-1)){x="world top"}else{if((i===1)&&(D>-1)){x=f[2]}}}s_265.prop16=x;j=(D>0)?"level-"+D:"level-0";switch(D){case -1:A=t+" - world top";y=A;h=A;break;case 0:if(d!==" - "){A="utilities";y="general info";h=t+" - "+d}else{A=t+" - top";y=A;h=A}break;case 1:A=c;y="top";h=(d!==" - ")?h=A+" - "+d:h="category main";break;case 2:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="subcategory main";break;default:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="level-"+D+" main";break}if(t==="search.dmoz.org"){A="utilities";y="search";j="level-0";h=d+" - home";g=((d==="search")&&(p.split("=")[0]==="?search"))?1:0;if(g===1){E=s_265.getQueryParam("search","",p);s_265.eVar11="sTerms:f|"+E;s_265.prop18=(s_265.getQueryParam("all").toLowerCase()!=="yes")?s_265.getQueryParam("cat").toLowerCase():"";s_265.prop18=s_265.prop18||"all";s=s_265.getQueryParam("t").toLowerCase();z=s_265.getQueryParam("morecat").toLowerCase();if(s==="c"||s==="s"||s==="b"){s_265.prop19=s}else{s_265.prop19=(z===1)?"c":"b"}C=(parseInt(s_265.getQueryParam("Kids"),10)===1)?"kids":"none";m=(parseInt(s_265.getQueryParam("Teens"),10)===1)?"teens":"none";r=(parseInt(s_265.getQueryParam("Mteens"),10)===1)?"mteens":"none";s_265.prop20=C+"|"+m+"|"+r;a=((s_265.prop19!=="c")&&(z.length===0)&&(s_265.getQueryParam("co").length===0))?((parseInt(s_265.getQueryParam("start")/20,10)+1)+""):(z.length===0)?((parseInt(s_265.getQueryParam("start")/25,10)+1)+""):((parseInt(s_265.getQueryParam("morecat")/25,10)+1)+"");s_265.prop21="page "+a;h="search results";l=(((a*1)===1)&&(z.length===0)&&(s_265.getQueryParam("start","",document.referrer).length===0))?1:0;if(l===1){B=(s.length>0)?"advanced search":((s.length===0)&&(s_265.getQueryParam("cat").length>0))?"branch search":"standard search";s_265.events="event1";s_265.eVar1=B}}e=1}if(e!==1){switch(c){case"help":A="utilities";y="help";j="level-0";h=(d!==" - ")?"dmoz help - "+d:"dmoz help - helpmain";e=1;break;case"profiles":A="utilities";y="profiles";j="level-0";h="dmoz - user profile";s_265.mmxtitle=h;s_265.mmxcustom="http://www.dmoz.org/profiles/user.html";e=1;break;case"become_an_editor":case"user-banners":case"awards":A="utilities";y="general info";j="level-0";h="dmoz - general info - "+q;e=1;break;case"guidelines":A="utilities";y="editors";j="level-0";h=(D>1)?"editors - "+c+" - "+b+" - "+q:"editors guidelines - "+q;e=1;break;case"newsletter":j="level-0";switch(D){case 1:y="newsletter article archive";h=y;break;case 2:h="newsletter "+y+" - "+q;break}e=1;break;case"erz":A="utilities";y="editors";j="level-0";h=(D>1)?"erz - "+b+" - "+q:"erz - top - "+q;e=1;break}}if(e!==1){if((t==="www.dmoz.org")&&(D===0)&&(d==="reinstate")){A="utilities";y="editors";h="editors - "+q;e=1}if(t==="report-abuse.dmoz.org"){A="utilities";y="report abuse";j="level-0";h=((D===0)&&(d==="faq"))?"dmoz report abuse system faq":"dmoz report abuse system";e=1}else{if(t==="rdf.dmoz.org"){A="utilities";y="rdf";j="level-0";if((D===0)&&(d===" - ")){h="rdf - main"}else{if((D===1)&&(d===" - ")){h="rdf - file index"}else{if((D===1)&&(d!==" - ")){h="rdf - "+d}}}e=1}}}if(e!==1){if((c==="cgi-bin")&&(t!=="search.dmoz.org")){A="utilities";j="level-0";switch(d){case"apply":case"forgot":y="editors";h=(d==="forgot")?"editors - password reminder form":(s_265.getQueryParam("submit").length===0)?"editors - application info":"editors - application";e=1;break;case"add":case"update":case"update2":case"update3":case"reinstate":y="editors";if(d==="add"){h="editors - submit a site instructions"}else{if(d==="update"){h="editors - update listing instructions"}else{if(d==="update2"){h="editors - update listing form"}else{if(d==="update3"){h="editors - update listing form received"}else{if(d==="reinstate"){h="editors - account reinstatement form received"}}}}}e=1;break;case"send":case"send2":y="editors";h=(d==="send")?"send editors feedback":"editors feedback received";e=1;break}}}if(e!==1){if((k==="desc.html")||(k==="faq.html")){w=(k==="desc.html")?"description":"faq";h=(D===1)?"branch category ":(D===2)?"branch subcategory ":"branch level-"+D+" ";h=h+w}}s_265.trackExternalLinks=false;s_265.mmxgo=true;s_265.prop1=A;s_265.prop2=y;s_265.prop17=j;s_265.pageName=h;s_265.t()}}())}var s_account="aoldmozodp,aolsvc";(function(){var b=document,a=b.createElement("script");a.type="text/javascript";a.src=(location.protocol==="https:"?"https://s":"http://o")+".aolcdn.com/omniunih.js";b.getElementsByTagName("head")[0].appendChild(a)}());
+</script>
+</div>
+<div id="doc" class="searchN">
+	<div id="hd" style="border-bottom:0;">
+    	<a id="logo" class="logoN" href="/" alt="dmoz logo" title="DMOZ"></a>
+        <div id="partnership">
+        	<img width="72" height="36" align="middle" alt="In Partnership with AOL" src="/img/public/aolpartner.png"/>
+        </div>
+    </div>
+    <div id="hd-bar">
+    	<div class="float-l">&nbsp;</div>
+        <div class="float-r">
+        	<a href="/">home</a> | <a href="/docs/en/unavailable.html">feedback</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="bd-cross">
+        <FORM class="center mb1em" >
+		<h4>Search: <strong>saunalahti.fi</strong></h4>
+		
+
+        </form>
+        <p class="mb1em"></p>
+        
+        	<h3>
+            	<strong>DMOZ Sites</strong> 
+                <small>(41-60 of 83)</small>
+            </h3>
+         
+			<ol class="site" start=41>
+				
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/raijoki">Jokinen, Raija</a> - Tekstiilitaiteilija. Pellavakuiduista vapailla tekniikoilla koostettuja taideteoksia. Sivustolla kuvia teoksista.
+                    <div class="ref">-- http://www.saunalahti.fi/raijoki&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Kulttuuri_ja_viihde/Kuvataiteet/Tekstiili/">World: Suomi: Kulttuuri ja viihde: Kuvataiteet: Tekstiili</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Kulttuuri_ja_viihde/Kuvataiteet/Tekstiili&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/jrajala/musa.htm">Musiikinyst&#228;v&#228;n perussivu</a> - Musiikkiaiheinen linkkikokoelma.
+                    <div class="ref">-- http://www.saunalahti.fi/jrajala/musa.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Kulttuuri_ja_viihde/Musiikki/">World: Suomi: Kulttuuri ja viihde: Musiikki</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Kulttuuri_ja_viihde/Musiikki&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~signal">Signal Penpal Magazine</a> - Provides a free listing online and also offers a paid magazine by post.
+                    <div class="ref">-- http://www.saunalahti.fi/~signal&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Society/People/Pen_Pals/">Society: People: Pen Pals</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Society/People/Pen_Pals&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/fidelis/">Kennel Fidelis and Miehtebiekka</a> - Breeder of Lapponian Herders and Finnish Lapphounds. Includes photos, pedigrees, and achievements.
+                    <div class="ref">-- http://www.saunalahti.fi/fidelis/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Recreation/Pets/Dogs/Breeds/Herding_Group/Lapponian_Herder/">Recreation: Pets: Dogs: Breeds: Herding Group: Lapponian Herder</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Recreation/Pets/Dogs/Breeds/Herding_Group/Lapponian_Herder&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~ejuhola/siru">Siru</a> - Several stories and pictures about a dog and her friends.
+                    <div class="ref">-- http://www.saunalahti.fi/~ejuhola/siru&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Recreation/Pets/Dogs/Breeds/Hound_Group/Silken_Windhound/">Recreation: Pets: Dogs: Breeds: Hound Group: Silken Windhound</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Recreation/Pets/Dogs/Breeds/Hound_Group/Silken_Windhound&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~samiuus/toni/xmlproc/">XMLproc</a> - Minimal non-validating parser written in C. Implements subset of SAX with namespaces. Public domain.
+                    <div class="ref">-- http://www.saunalahti.fi/~samiuus/toni/xmlproc/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Computers/Programming/Languages/C/Libraries/XML/">Computers: Programming: Languages: C: Libraries: XML</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Computers/Programming/Languages/C/Libraries/XML&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~vpk4/">M/S Velmeri</a> - Charter cruises. Includes menus, prices and booking information.
+                    <div class="ref">-- http://www.saunalahti.fi/~vpk4/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Regional/Europe/Finland/Etel%C3%A4-Savo/Savonlinna/Travel_and_Tourism/">Regional: Europe: Finland: Etelä-Savo: Savonlinna: Travel and Tourism</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Regional/Europe/Finland/Etel%C3%A4-Savo/Savonlinna/Travel_and_Tourism&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~tepsi007/">Al-Nadar Portuguese Water Dogs</a> - Mountainhead, Mynamaki, Finland. Breed history, rescue contacts for Finland and Portugal, calendar of dog shows in Finland, links to other breeders, and breed standard. [English and Finnish]
+                    <div class="ref">-- http://www.saunalahti.fi/~tepsi007/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Recreation/Pets/Dogs/Breeds/Working_Group/Portuguese_Water_Dog/Breeders/">Recreation: Pets: Dogs: Breeds: Working Group: Portuguese Water Dog: Breeders</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/Recreation/Pets/Dogs/Breeds/Working_Group/Portuguese_Water_Dog/Breeders&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/eeromari">H&#228;m&#228;l&#228;iset</a> - Vaelluksistamme ymp&#228;ri maailmaa tekstein ja kuvien kera. My&#246;s infoa ja linkkej&#228; Suomesta. Jotkut sivut ovat vain englanniksi tai saksaksi.
+                    <div class="ref">-- http://www.saunalahti.fi/eeromari&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/H/">World: Suomi: Yhteiskunta: Ihmiset: Henkilökohtaiset sivut: H</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/H&all=no">3</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/jrajala/marja.htm">Senil&#228;, Marja</a> - Henkil&#246;kohtaisia tietoja ja sukulaisia sek&#228; yst&#228;vi&#228; kuvineen.
+                    <div class="ref">-- http://www.saunalahti.fi/jrajala/marja.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/S/">World: Suomi: Yhteiskunta: Ihmiset: Henkilökohtaiset sivut: S</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Yhteiskunta/Ihmiset/Henkil%C3%B6kohtaiset_sivut/S&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/jawap/">V&#228;ripsykologia</a> - V&#228;ripsykologinen testi, v&#228;riterapia ja tietoa v&#228;ripsykologiasta. Java-appletti jonka avulla voi valita mieleisen v&#228;riparin selainturvalliset v&#228;rit.
+                    <div class="ref">-- http://www.saunalahti.fi/jawap/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Terveys/Vaihtoehtoiset_hoitomuodot/">World: Suomi: Terveys: Vaihtoehtoiset hoitomuodot</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Terveys/Vaihtoehtoiset_hoitomuodot&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/gtimikro/">GTi Mikro</a> - R&#228;&#228;t&#228;l&#246;it&#228;v&#228;t mikrot, valmiit kokoonpanot, suppeahko komponentti- ja oheislaitehinnasto. My&#246;s ajureita. Liike Ylih&#228;rm&#228;ss&#228;.
+                    <div class="ref">-- http://www.saunalahti.fi/gtimikro/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Verkkokaupat/Tietotekniikka/">World: Suomi: Verkkokaupat: Tietotekniikka</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Verkkokaupat/Tietotekniikka&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~kroksa/">K-Extra R&#246;ks&#228;</a> - Kyl&#228;kauppa Kirjavalassa. Kaupan historiaa, yhteystiedot sek&#228; alueen n&#228;ht&#228;vyyksi&#228;.
+                    <div class="ref">-- http://www.saunalahti.fi/~kroksa/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Alueellinen/Suomi/Etel%C3%A4-Karjala/Kunnat/Parikkala/Yritykset_ja_talous/">World: Suomi: Alueellinen: Suomi: Etelä-Karjala: Kunnat: Parikkala: Yritykset ja talous</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Alueellinen/Suomi/Etel%C3%A4-Karjala/Kunnat/Parikkala/Yritykset_ja_talous&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~bamsen/drinkit/">Tommin Drink It - drinkit ja vinkit</a> - Drinkkiohjeita ja tietoa drinkkien valmistuksesta ja siihe tarvittavista v&#228;lineist&#228;.
+                    <div class="ref">-- http://www.saunalahti.fi/~bamsen/drinkit/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Ruoka_ja_juoma/Juomat/">World: Suomi: Vapaa-aika: Ruoka ja juoma: Juomat</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Ruoka_ja_juoma/Juomat&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/retki/linnut/ruoki.htm">Talviruokinta</a> - Artikkeli lintujen talviruokinnasta. Antaa ohjeita ruokintapaikasta, -v&#228;lineist&#246;st&#228; ja tarjottavasta ruuasta sek&#228; kertoo lajistosta ja mahdollisista ongelmista.
+                    <div class="ref">-- http://www.saunalahti.fi/retki/linnut/ruoki.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lintuharrastus/Talviruokinta/">World: Suomi: Vapaa-aika: Lintuharrastus: Talviruokinta</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lintuharrastus/Talviruokinta&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/retki/linnut/">Suupohjan Lintutieteellinen Yhdistys</a> - Viimeaikaisia havaintoja ja muuta ajankohtaista, lintupaikkojen esittely, p&#246;ntt&#246;- ja talviruokintaohjeita sek&#228; tutkimustoiminnan esittely.
+                    <div class="ref">-- http://www.saunalahti.fi/retki/linnut/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lintuharrastus/Yhdistykset/">World: Suomi: Vapaa-aika: Lintuharrastus: Yhdistykset</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lintuharrastus/Yhdistykset&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/katirais/index.html">Koirat kuvassa</a> - Kati R&#228;s&#228;sen valokuvia koirista. Suurin osa kuvista otettu luonnossa, mutta mukaan mahtuu my&#246;s studiokuvia.
+                    <div class="ref">-- http://www.saunalahti.fi/katirais/index.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Koirat/">World: Suomi: Vapaa-aika: Lemmikit: Koirat</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Koirat&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/paihof/">Tawastway&apos;s labradorinnoutajat</a> - N&#228;ill&#228; sivuilla esitell&#228;&#228;n kennelin omat koirat ja muutamia kasvatteja.
+                    <div class="ref">-- http://www.saunalahti.fi/paihof/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Noutajat%2C_yl%C3%B6sajavat_ja_vesikoirat/Labradorinnoutaja/">World: Suomi: Vapaa-aika: Lemmikit: Koirat: Rodut: Noutajat, ylösajavat ja vesikoirat: Labradorinnoutaja</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Noutajat%2C_yl%C3%B6sajavat_ja_vesikoirat/Labradorinnoutaja&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~glottis/">Nopan sivut</a> - Juttua ja kuvia Noppa-dallusta. My&#246;s koirien vaatteiden kaavoja ja teko-ohjeita sek&#228; vaellusohjeita.
+                    <div class="ref">-- http://www.saunalahti.fi/~glottis/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Ajavat_ja_j%C3%A4ljest%C3%A4v%C3%A4t_koirat/Dalmatiankoira/">World: Suomi: Vapaa-aika: Lemmikit: Koirat: Rodut: Ajavat ja jäljestävät koirat: Dalmatiankoira</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Ajavat_ja_j%C3%A4ljest%C3%A4v%C3%A4t_koirat/Dalmatiankoira&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~sastsk1/silik.html">Ardiente Maria Avalancha</a> - Australianpaimenkoira Silin kotikolo.
+                    <div class="ref">-- http://www.saunalahti.fi/~sastsk1/silik.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Lammas-_ja_karjakoirat/Australianpaimenkoira/">World: Suomi: Vapaa-aika: Lemmikit: Koirat: Rodut: Lammas- ja karjakoirat: Australianpaimenkoira</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Lammas-_ja_karjakoirat/Australianpaimenkoira&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+            </ol>
+            
+            
+            <p align="center"><a class="nav-label" href="search?q=saunalahti.fi&start=20&type=next&all=no&cat=">previous</a></p>
+            
+	        <p align="center"><a class="nav-label" href="search?q=saunalahti.fi&start=60&type=next&all=no&cat=">next</a></p>
+	        
+        
+		<br>
+		<FORM class="center mb1em" action="search" method="GET">
+	      <INPUT TYPE="text" NAME="q" value="saunalahti.fi">
+		<input type=submit value="New Search" class="btn">
+		<a href="search?type=advanced">Advanced Search</a>
+		<a href="/docs/en/searchguide.html">Help on Search</a>
+		</FORM>
+
+		<span>
+			<img style="height: 2px; float: left; width: 100%" src="/img/dividerN.gif" />
+		</span>
+
+        <div class="search-alt">
+			
+	        "<strong>saunalahti.fi</strong>"
+			 search on: - 
+            <a href="http://www.altavista.com/cgi-bin/query?q=saunalahti.fi">AltaVista</a> - 
+            <a href="http://a9.com/saunalahti.fi">A9</a> - 
+            <a href="http://search.aol.com/aolcom/search?query=saunalahti.fi">AOL</a> - 
+            <a href="http://search.ask.com/web?q=saunalahti.fi">Ask</a> - 
+            <a href="http://clusty.com/search?query=saunalahti.fi">Clusty</a> - 
+            <a href="http://gigablast.com/search?q=saunalahti.fi">Gigablast</a> - 
+            <a href="http://www.google.com/search?num=10&amp;query=saunalahti.fi">Google</a> - 
+            <a href="http://search.lycos.com/?query=saunalahti.fi">Lycos</a> - 
+            <a href="http://www.bing.com/search?go=&form=QBLH&filt=all&qs=n?q=saunalahti.fi">Bing</a> - 
+		<a HREF="http://s.teoma.com/search?q=saunalahti.fi">Teoma</a> - 
+		<a HREF="http://www.wisenut.com/search/query.dll?q=saunalahti.fi">Wisenut</A> - 
+            <a href="http://search.yahoo.com/bin/search?p=saunalahti.fi">Yahoo</a>
+			
+
+
+        </div>
+
+
+		<span>
+			<img style="height: 2px; float: left; width: 100%" src="/img/dividerN.gif" />
+		</span>
+    </div>
+    <div id="ft">
+    	
+        
+            <span class="float-l">Copyright &copy; 1998-2015 AOL Inc.</span>
+        
+        <span class="float-r"><a href="/docs/en/termsofuse.html">Terms of Use</a></span>
+    </div>
+    <!--div id="ft-bar">
+    	Search database last updated on: Wed Jun 25 17:20:02 EDT 2008
+    </div-->
+</div>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>DMOZ - Search Results </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<link rel="icon" type="image/ico" href="img/mozilla.ico">
+<link rel="stylesheet" type="text/css" href="/css/dmoz-main.css">
+<BASE target="_top">
+
+<style>
+ol.site li .ref a {background:none; padding-right:0;}
+ol.site .ref li a {background:none; padding-right:0;}
+
+}
+</style>
+
+</HEAD>
+<body>
+<div id="omniture">
+<script type="text/javascript">
+function runOmni(){(function(){var F,t,n,v,p,q,u,o,i,f,D,d,k,c,b,x,g,E,s,z,C,m,r,a,l,B,e,w,A,y,j,h;F=location.protocol.toLowerCase();t=location.hostname.toLowerCase();n=location.port;v=location.pathname.toLowerCase();p=location.search.toLowerCase();q=document.title.toLowerCase();s_265.pfxID="odp";s_265.server=t;s_265.channel="us.dmozodp";s_265.charSet="UTF-8";s_265.linkInternalFilters="aol.com,javascript:,dmoz.org";u=t.split(".");o=(u.length>1)?u[u.length-2]+"."+u[u.length-1]:"";if((o==="dmoz.org")||(t+":"+n==="dmozqa-m01.ihost.aol.com:8081")||(t+":"+n==="10.146.172.49:9099")){s_265.prop12=F+"//"+t+v;i=(v.indexOf("/world/")>-1)?1:0;f=v.split("/");D=(i===1)?parseInt(f.length,10)-4:parseInt(f.length,10)-2;d=(f[f.length-1].length>0)?f[f.length-1].split(".")[0]:" - ";k=(f[f.length-1].length>0)?f[f.length-1]:" - ";c=(i===1)?f[3]:f[1];b=(i===1)?f[4]:f[2];if(i===0){x="english"}else{if((i===1)&&(D===-1)){x="world top"}else{if((i===1)&&(D>-1)){x=f[2]}}}s_265.prop16=x;j=(D>0)?"level-"+D:"level-0";switch(D){case -1:A=t+" - world top";y=A;h=A;break;case 0:if(d!==" - "){A="utilities";y="general info";h=t+" - "+d}else{A=t+" - top";y=A;h=A}break;case 1:A=c;y="top";h=(d!==" - ")?h=A+" - "+d:h="category main";break;case 2:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="subcategory main";break;default:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="level-"+D+" main";break}if(t==="search.dmoz.org"){A="utilities";y="search";j="level-0";h=d+" - home";g=((d==="search")&&(p.split("=")[0]==="?search"))?1:0;if(g===1){E=s_265.getQueryParam("search","",p);s_265.eVar11="sTerms:f|"+E;s_265.prop18=(s_265.getQueryParam("all").toLowerCase()!=="yes")?s_265.getQueryParam("cat").toLowerCase():"";s_265.prop18=s_265.prop18||"all";s=s_265.getQueryParam("t").toLowerCase();z=s_265.getQueryParam("morecat").toLowerCase();if(s==="c"||s==="s"||s==="b"){s_265.prop19=s}else{s_265.prop19=(z===1)?"c":"b"}C=(parseInt(s_265.getQueryParam("Kids"),10)===1)?"kids":"none";m=(parseInt(s_265.getQueryParam("Teens"),10)===1)?"teens":"none";r=(parseInt(s_265.getQueryParam("Mteens"),10)===1)?"mteens":"none";s_265.prop20=C+"|"+m+"|"+r;a=((s_265.prop19!=="c")&&(z.length===0)&&(s_265.getQueryParam("co").length===0))?((parseInt(s_265.getQueryParam("start")/20,10)+1)+""):(z.length===0)?((parseInt(s_265.getQueryParam("start")/25,10)+1)+""):((parseInt(s_265.getQueryParam("morecat")/25,10)+1)+"");s_265.prop21="page "+a;h="search results";l=(((a*1)===1)&&(z.length===0)&&(s_265.getQueryParam("start","",document.referrer).length===0))?1:0;if(l===1){B=(s.length>0)?"advanced search":((s.length===0)&&(s_265.getQueryParam("cat").length>0))?"branch search":"standard search";s_265.events="event1";s_265.eVar1=B}}e=1}if(e!==1){switch(c){case"help":A="utilities";y="help";j="level-0";h=(d!==" - ")?"dmoz help - "+d:"dmoz help - helpmain";e=1;break;case"profiles":A="utilities";y="profiles";j="level-0";h="dmoz - user profile";s_265.mmxtitle=h;s_265.mmxcustom="http://www.dmoz.org/profiles/user.html";e=1;break;case"become_an_editor":case"user-banners":case"awards":A="utilities";y="general info";j="level-0";h="dmoz - general info - "+q;e=1;break;case"guidelines":A="utilities";y="editors";j="level-0";h=(D>1)?"editors - "+c+" - "+b+" - "+q:"editors guidelines - "+q;e=1;break;case"newsletter":j="level-0";switch(D){case 1:y="newsletter article archive";h=y;break;case 2:h="newsletter "+y+" - "+q;break}e=1;break;case"erz":A="utilities";y="editors";j="level-0";h=(D>1)?"erz - "+b+" - "+q:"erz - top - "+q;e=1;break}}if(e!==1){if((t==="www.dmoz.org")&&(D===0)&&(d==="reinstate")){A="utilities";y="editors";h="editors - "+q;e=1}if(t==="report-abuse.dmoz.org"){A="utilities";y="report abuse";j="level-0";h=((D===0)&&(d==="faq"))?"dmoz report abuse system faq":"dmoz report abuse system";e=1}else{if(t==="rdf.dmoz.org"){A="utilities";y="rdf";j="level-0";if((D===0)&&(d===" - ")){h="rdf - main"}else{if((D===1)&&(d===" - ")){h="rdf - file index"}else{if((D===1)&&(d!==" - ")){h="rdf - "+d}}}e=1}}}if(e!==1){if((c==="cgi-bin")&&(t!=="search.dmoz.org")){A="utilities";j="level-0";switch(d){case"apply":case"forgot":y="editors";h=(d==="forgot")?"editors - password reminder form":(s_265.getQueryParam("submit").length===0)?"editors - application info":"editors - application";e=1;break;case"add":case"update":case"update2":case"update3":case"reinstate":y="editors";if(d==="add"){h="editors - submit a site instructions"}else{if(d==="update"){h="editors - update listing instructions"}else{if(d==="update2"){h="editors - update listing form"}else{if(d==="update3"){h="editors - update listing form received"}else{if(d==="reinstate"){h="editors - account reinstatement form received"}}}}}e=1;break;case"send":case"send2":y="editors";h=(d==="send")?"send editors feedback":"editors feedback received";e=1;break}}}if(e!==1){if((k==="desc.html")||(k==="faq.html")){w=(k==="desc.html")?"description":"faq";h=(D===1)?"branch category ":(D===2)?"branch subcategory ":"branch level-"+D+" ";h=h+w}}s_265.trackExternalLinks=false;s_265.mmxgo=true;s_265.prop1=A;s_265.prop2=y;s_265.prop17=j;s_265.pageName=h;s_265.t()}}())}var s_account="aoldmozodp,aolsvc";(function(){var b=document,a=b.createElement("script");a.type="text/javascript";a.src=(location.protocol==="https:"?"https://s":"http://o")+".aolcdn.com/omniunih.js";b.getElementsByTagName("head")[0].appendChild(a)}());
+</script>
+</div>
+<div id="doc" class="searchN">
+	<div id="hd" style="border-bottom:0;">
+    	<a id="logo" class="logoN" href="/" alt="dmoz logo" title="DMOZ"></a>
+        <div id="partnership">
+        	<img width="72" height="36" align="middle" alt="In Partnership with AOL" src="/img/public/aolpartner.png"/>
+        </div>
+    </div>
+    <div id="hd-bar">
+    	<div class="float-l">&nbsp;</div>
+        <div class="float-r">
+        	<a href="/">home</a> | <a href="/docs/en/unavailable.html">feedback</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="bd-cross">
+        <FORM class="center mb1em" >
+		<h4>Search: <strong>saunalahti.fi</strong></h4>
+		
+
+        </form>
+        <p class="mb1em"></p>
+        
+        	<h3>
+            	<strong>DMOZ Sites</strong> 
+                <small>(61-80 of 83)</small>
+            </h3>
+         
+			<ol class="site" start=61>
+				
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~sastsk1/taarna/">Crofter Holding&apos;s Pequenita Pepita</a> - Aussietytt&#246; Taarnan kotisivu.
+                    <div class="ref">-- http://www.saunalahti.fi/~sastsk1/taarna/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Lammas-_ja_karjakoirat/Australianpaimenkoira/">World: Suomi: Vapaa-aika: Lemmikit: Koirat: Rodut: Lammas- ja karjakoirat: Australianpaimenkoira</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Lammas-_ja_karjakoirat/Australianpaimenkoira&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~pkorkk1/triwindas/">Kennel Triwindas</a> - Pienimuotoista saksanpaimenkoirakasvatusta vuodesta 1984.
+                    <div class="ref">-- http://www.saunalahti.fi/~pkorkk1/triwindas/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Lammas-_ja_karjakoirat/Saksanpaimenkoira/">World: Suomi: Vapaa-aika: Lemmikit: Koirat: Rodut: Lammas- ja karjakoirat: Saksanpaimenkoira</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Lammas-_ja_karjakoirat/Saksanpaimenkoira&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~apezone/yoda/">Troppola Yul Brynner</a> - Tietoa mopsista sek&#228; valokuvia.
+                    <div class="ref">-- http://www.saunalahti.fi/~apezone/yoda/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Seura-_ja_k%C3%A4%C3%A4pi%C3%B6koirat/Mopsi/">World: Suomi: Vapaa-aika: Lemmikit: Koirat: Rodut: Seura- ja kääpiökoirat: Mopsi</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Koirat/Rodut/Seura-_ja_k%C3%A4%C3%A4pi%C3%B6koirat/Mopsi&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~godfathe/godfatherskissala.htm">Godfather&apos;s-kissala</a> - Maine Coon -kissoja ja norjalaisia mets&#228;kissoja tamperelaisen kasvattajan sivuilla. Rotuesittely ja n&#228;yttelytuloksia.
+                    <div class="ref">-- http://www.saunalahti.fi/~godfathe/godfatherskissala.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Maine_Coon/">World: Suomi: Vapaa-aika: Lemmikit: Kissat: Kissarodut: Maine Coon</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Maine_Coon&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/larami/">Laramillan</a> - Lemp&#228;&#228;l&#228;l&#228;isen kasvattajan kasvatusty&#246;t&#228; ja kissoja.
+                    <div class="ref">-- http://www.saunalahti.fi/larami/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Maine_Coon/">World: Suomi: Vapaa-aika: Lemmikit: Kissat: Kissarodut: Maine Coon</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Maine_Coon&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/mirkkas/index_tiedostot/kissat.htm">Virtaviivainen</a> - Helsinkil&#228;isen kasvattjan balineesit, it&#228;mainet ja siamilainet kissat
+                    <div class="ref">-- http://www.saunalahti.fi/mirkkas/index_tiedostot/kissat.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Balineesi/">World: Suomi: Vapaa-aika: Lemmikit: Kissat: Kissarodut: Balineesi</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Balineesi&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/dewdrops/">Dewdrop&apos;s Korats - koratkasvatusta</a> - Kasvattajan kissalan asukit kuvin ja sanoin. Kasvattajasitoumussivu, rotuesittely ja -m&#228;&#228;ritelm&#228;, kuvagalleria.
+                    <div class="ref">-- http://www.saunalahti.fi/dewdrops/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Korat/">World: Suomi: Vapaa-aika: Lemmikit: Kissat: Kissarodut: Korat</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Korat&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~melodian/">Melodian Koratit</a> - Turkulaisen kasvattajan kissat ja pentueet esittelyss&#228;. Rotutietoutta, n&#228;yttelytuloksia, linkkej&#228;.
+                    <div class="ref">-- http://www.saunalahti.fi/~melodian/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Korat/">World: Suomi: Vapaa-aika: Lemmikit: Kissat: Kissarodut: Korat</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Korat&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~godfathe/godfatherskissala.htm">Godfather&apos;s-kissala</a> - Norjalaisia mets&#228;kissoja ja Maine Coon-kissoja kuvin ja sanoin tamperelaisen kasvattajan sivuilla. Rotuesittely, n&#228;yttelytuloksia.
+                    <div class="ref">-- http://www.saunalahti.fi/~godfathe/godfatherskissala.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Norjalainen_mets%C3%A4kissa/">World: Suomi: Vapaa-aika: Lemmikit: Kissat: Kissarodut: Norjalainen metsäkissa</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Norjalainen_mets%C3%A4kissa&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/larami/">Laramillan</a> - Lemp&#228;&#228;l&#228;l&#228;isen kasvattajan kasvatusty&#246;t&#228; ja kissoja.
+                    <div class="ref">-- http://www.saunalahti.fi/larami/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Norjalainen_mets%C3%A4kissa/">World: Suomi: Vapaa-aika: Lemmikit: Kissat: Kissarodut: Norjalainen metsäkissa</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Vapaa-aika/Lemmikit/Kissat/Kissarodut/Norjalainen_mets%C3%A4kissa&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/arnoldus/locke.html">John Locke (1632-1704) - l&#228;&#228;k&#228;ri, filosofi ja kasvattaja</a> - Filosofi oli my&#246;s l&#228;&#228;k&#228;ri. Kirjoittanut Arno Forsius.
+                    <div class="ref">-- http://www.saunalahti.fi/arnoldus/locke.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Tiede/Humanistiset_tieteet/Filosofia/Filosofit/Locke%2C_John/">World: Suomi: Tiede: Humanistiset tieteet: Filosofia: Filosofit: Locke, John</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Tiede/Humanistiset_tieteet/Filosofia/Filosofit/Locke%2C_John&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/arnoldus/aristote.html">Aristoteles (noin 384-322 eKr.) -- filosofi ja luonnontutkija</a> - Filosofin ajatuksia luonnosta ja erityisesti l&#228;&#228;ketieteest&#228;. Kirjoittanut Arno Forsius.
+                    <div class="ref">-- http://www.saunalahti.fi/arnoldus/aristote.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Tiede/Humanistiset_tieteet/Filosofia/Filosofit/Aristoteles/">World: Suomi: Tiede: Humanistiset tieteet: Filosofia: Filosofit: Aristoteles</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Tiede/Humanistiset_tieteet/Filosofia/Filosofit/Aristoteles&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/arnoldus/descart.html">Ren&#233; Descartes (1596-1650) ja l&#228;&#228;ketiede</a> - Filosofin n&#228;kemyksi&#228; ihmisruumiin toiminnasta. Kirjoittanut Arno Forsius.
+                    <div class="ref">-- http://www.saunalahti.fi/arnoldus/descart.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Tiede/Humanistiset_tieteet/Filosofia/Filosofit/Descartes%2C_Ren%C3%A9/">World: Suomi: Tiede: Humanistiset tieteet: Filosofia: Filosofit: Descartes, René</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Tiede/Humanistiset_tieteet/Filosofia/Filosofit/Descartes%2C_Ren%C3%A9&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/kivisaar/">Kivisaaren oriasema, Elim&#228;ki</a> - Oriit, tammat ja varsat esittelyss&#228;. Myyt&#228;vi&#228; hevosia, my&#246;s kimppahevosia. Pelivihjeit&#228;.
+                    <div class="ref">-- http://www.saunalahti.fi/kivisaar/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Urheilu/Hevoset/Raviurheilu/">World: Suomi: Urheilu: Hevoset: Raviurheilu</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Urheilu/Hevoset/Raviurheilu&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/samminrt">Sammin Ratsutila, Siikainen</a> - Sijaitsee Kankaanp&#228;&#228;n l&#228;hell&#228; (Poriin 70km). Ratsastustuntien ja rekiretkien lis&#228;ksi h&#228;&#228;- ja merkkip&#228;ivien j&#228;rjest&#228;miseen sopivat tilat.
+                    <div class="ref">-- http://www.saunalahti.fi/samminrt&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Urheilu/Hevoset/Ratsastusseurat_ja_tallit/">World: Suomi: Urheilu: Hevoset: Ratsastusseurat ja tallit</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Urheilu/Hevoset/Ratsastusseurat_ja_tallit&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~tkokkila/kannus/">Sein&#228;joen Sarjakuvaseura</a> - Seuran historiaa sek&#228; lista seuran avustajista ja julkaisuista.
+                    <div class="ref">-- http://www.saunalahti.fi/~tkokkila/kannus/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Kulttuuri_ja_viihde/Sarjakuvat/Seurat_ja_piirt%C3%A4j%C3%A4t/">World: Suomi: Kulttuuri ja viihde: Sarjakuvat: Seurat ja piirtäjät</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Kulttuuri_ja_viihde/Sarjakuvat/Seurat_ja_piirt%C3%A4j%C3%A4t&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~tkokkila/">Kokkila, Timo</a> - Tietoa taiteilijasta ja n&#228;ytteit&#228; t&#228;m&#228;n sarjakuvista.
+                    <div class="ref">-- http://www.saunalahti.fi/~tkokkila/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Kulttuuri_ja_viihde/Sarjakuvat/Seurat_ja_piirt%C3%A4j%C3%A4t/">World: Suomi: Kulttuuri ja viihde: Sarjakuvat: Seurat ja piirtäjät</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Kulttuuri_ja_viihde/Sarjakuvat/Seurat_ja_piirt%C3%A4j%C3%A4t&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/~laakee2/tiittanen/fin/index.html">Tiittanen Kirsi</a> - taidegraafikko, kuvataiteilija ty&#246;skentelee Espoossa Villa Ekassa. Kuvagalleriat 1995-2004 tuotannosta sis&#228;lt&#228;en valokuvateoksia, carborundum ja kollagrafiateoksia sek&#228; installaatiota.
+                    <div class="ref">-- http://www.saunalahti.fi/~laakee2/tiittanen/fin/index.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Kulttuuri_ja_viihde/Kuvataiteet/Taidegrafiikka/">World: Suomi: Kulttuuri ja viihde: Kuvataiteet: Taidegrafiikka</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Kulttuuri_ja_viihde/Kuvataiteet/Taidegrafiikka&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/tnl/">Ty&#246;v&#228;en N&#228;ytt&#228;m&#246;iden Liitto r.y.</a> - Ammatti- ja harrastajateattereiden yhteisty&#246;j&#228;rjest&#246;.
+                    <div class="ref">-- http://www.saunalahti.fi/tnl/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Kulttuuri_ja_viihde/N%C3%A4ytt%C3%A4m%C3%B6taiteet/J%C3%A4rjest%C3%B6t/">World: Suomi: Kulttuuri ja viihde: Näyttämötaiteet: Järjestöt</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Kulttuuri_ja_viihde/N%C3%A4ytt%C3%A4m%C3%B6taiteet/J%C3%A4rjest%C3%B6t&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+                    <a href="http://www.saunalahti.fi/muittari/ahven/ahven.html">Ahven</a> - Keski-Suomessa juuriaan katkovan yhtyeen historiikki, lyriikoita, arvosteluita, keikkakalenteri ja kuvia.
+                    <div class="ref">-- http://www.saunalahti.fi/muittari/ahven/ahven.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Suomi/Kulttuuri_ja_viihde/Musiikki/Tyylit/Rock/Artistit/">World: Suomi: Kulttuuri ja viihde: Musiikki: Tyylit: Rock: Artistit</a>
+	  		  (<a href="search?q=saunalahti.fi&start=0&cat=/Top/World/Suomi/Kulttuuri_ja_viihde/Musiikki/Tyylit/Rock/Artistit&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+            </ol>
+            
+            
+            <p align="center"><a class="nav-label" href="search?q=saunalahti.fi&start=40&type=next&all=no&cat=">previous</a></p>
+            
+        
+		<br>
+		<FORM class="center mb1em" action="search" method="GET">
+	      <INPUT TYPE="text" NAME="q" value="saunalahti.fi">
+		<input type=submit value="New Search" class="btn">
+		<a href="search?type=advanced">Advanced Search</a>
+		<a href="/docs/en/searchguide.html">Help on Search</a>
+		</FORM>
+
+		<span>
+			<img style="height: 2px; float: left; width: 100%" src="/img/dividerN.gif" />
+		</span>
+
+        <div class="search-alt">
+			
+	        "<strong>saunalahti.fi</strong>"
+			 search on: - 
+            <a href="http://www.altavista.com/cgi-bin/query?q=saunalahti.fi">AltaVista</a> - 
+            <a href="http://a9.com/saunalahti.fi">A9</a> - 
+            <a href="http://search.aol.com/aolcom/search?query=saunalahti.fi">AOL</a> - 
+            <a href="http://search.ask.com/web?q=saunalahti.fi">Ask</a> - 
+            <a href="http://clusty.com/search?query=saunalahti.fi">Clusty</a> - 
+            <a href="http://gigablast.com/search?q=saunalahti.fi">Gigablast</a> - 
+            <a href="http://www.google.com/search?num=10&amp;query=saunalahti.fi">Google</a> - 
+            <a href="http://search.lycos.com/?query=saunalahti.fi">Lycos</a> - 
+            <a href="http://www.bing.com/search?go=&form=QBLH&filt=all&qs=n?q=saunalahti.fi">Bing</a> - 
+		<a HREF="http://s.teoma.com/search?q=saunalahti.fi">Teoma</a> - 
+		<a HREF="http://www.wisenut.com/search/query.dll?q=saunalahti.fi">Wisenut</A> - 
+            <a href="http://search.yahoo.com/bin/search?p=saunalahti.fi">Yahoo</a>
+			
+
+
+        </div>
+
+
+		<span>
+			<img style="height: 2px; float: left; width: 100%" src="/img/dividerN.gif" />
+		</span>
+    </div>
+    <div id="ft">
+    	
+        
+            <span class="float-l">Copyright &copy; 1998-2015 AOL Inc.</span>
+        
+        <span class="float-r"><a href="/docs/en/termsofuse.html">Terms of Use</a></span>
+    </div>
+    <!--div id="ft-bar">
+    	Search database last updated on: Wed Jun 25 17:20:02 EDT 2008
+    </div-->
+</div>
+</BODY>
+</HTML>
