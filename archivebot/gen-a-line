@@ -1,0 +1,7 @@
+#!/bin/sh
+# Original written by yipdw, modified by chip 
+
+# This assumes that the file you want to queue has been moved to inprogress
+# and that the move has been committed and pushed to chpwssn/saunalahti-iso-g.
+
+echo "!a < https://raw.githubusercontent.com/chpwssn/saunalahti-iso-g/master/archivebot/$1 --no-offsite-links --pipeline=isog --ignore-sets=coppermine,blogs,forums,nosortedindex"
